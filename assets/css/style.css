@@ -19,6 +19,7 @@ body {
 body::before {
   content: "";
   position: fixed;
+  filter: brightness(50%);
   background: #040404 url("../img/bg.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
@@ -149,6 +150,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-top .social-links, #header.header-top h2 {
+  
   display: none;
 }
 
@@ -161,6 +163,11 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
 }
+
+#header.header-top .paragraph{
+  display: none;
+}
+
 
 #header.header-top .navbar {
   margin: 0;
